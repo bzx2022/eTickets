@@ -7,7 +7,7 @@ namespace eTickets.Models
     {
         [Key]
         public int Id { get; set; }
-        [Display(Name ="Cinema NAme")]
+        [Display(Name ="Cinema Name")]
         public string Name { get; set; }
         [Display(Name = "Cinema Logo")]
         public string Logo { get; set; }
